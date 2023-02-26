@@ -54,7 +54,7 @@ const showData = () => {
                     </div>
                     <br />
                     <div class="in-card">
-                        <a href="detail-project.html" style="text-decoration:none color:black;"><span style="font-size: 20px; font-weight: bold; ">${datas[i].title}</span></a>
+                        <a href="detail-project.html" style="text-decoration:none; color:black;"><span style="font-size: 20px; font-weight: bold; ">${datas[i].title}</span></a>
                         <div>
                             <span>durasi :${getDuration(datas[i].startDate, datas[i].endDate)}
                             </span>
