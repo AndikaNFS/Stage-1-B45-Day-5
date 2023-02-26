@@ -37,6 +37,7 @@ function getData(event) {
     }
 
     datas.push(data)
+    console.log(new Date(endDate)- new Date(startDate))
     console.log(datas)
     showData()
 }
@@ -47,7 +48,7 @@ const showData = () => {
         document.getElementById("footer").innerHTML += `
         <div class="row">
             <div class="column">
-                <div class="card" style="width: 100%;">
+                <div class="card" style="width: 100%; justify-content:center; align-items: center;">
 
                     <div>
                         <img src="${datas[i].image}" width="300px" alt="">
@@ -98,7 +99,7 @@ const getDuration = (startTime, endTime) => {
         distance / (12 * 4 * 7 * 24 * 60 * 60 * miliSecond)
     );
     if (yearDistance > 0) {
-        return yearDistance + " years ago";
+        return yearDistance + " Years Ago";
       } else {
         const monthDistance = Math.floor(
           distance / (4 * 7 * 24 * 60 * 60 * miliSecond)

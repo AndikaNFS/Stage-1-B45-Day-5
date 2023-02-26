@@ -1,76 +1,9 @@
-body {
-    background-color:#e0e3e8;
-    margin: 0;
-    padding: 0;
-}
-
-/* Navbar */
-header{
-    position: relative;
-
-    top: 100;
-    right: 10;
-    left: 100;
-    background-color: white; 
-    margin-bottom: 20px;
-    border-top-width: 10px;
-}
-nav{
-    display: flex;
-    flex: auto;
-    align-items: center;
-    justify-content:space-between;
-    height: 60px;
-    /* float: left; */
-    /* width: 25%; */
-}
-
-.nav-left ul {
-    display: flex;
-    /* background-color: red; */
-    list-style-type: none;
-    font-size: 20px;
-    align-items: center;
-    padding-right: 100px;
-}
-.nav-left ul li {
-    margin-right: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-.nav-left ul a {
-    text-decoration: none;
-    color: black;
-
-}
-.nav-left ul a:link {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    
-}
-
-.nav-right {
-    display: flex;
-    align-items: center;
-    padding: 8px 25px 8px 25px;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: black;
-}
-.nav-right a {
-    text-decoration: none; 
-    color: white; 
-    font-weight: bold; 
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
-
 /* Main Content */
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: blue; */
 }
 
 form > div > label {
@@ -216,12 +149,12 @@ form .row .desc2 .sub-desc2 input {
 
 
 /* Footer */
-/* .footer {
+.footer {
     padding: 20px;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
-} */
+}
 
 /* Create three equal columns that floats next to each other */
 .column {
@@ -240,26 +173,13 @@ form .row .desc2 .sub-desc2 input {
     border-radius: 10px;
 
 }
-/* .card::after {
-    border: 1px solid white;
-    box-shadow: 0px 4px 16px grey;
-    width: 100%;
-    padding: 15px;
-    margin: 10px;
-
-} */
 .row {
     display:inline-flex;
     /* justify-content: center; */
     align-items: center;
+    width: 100% auto;
+    /* background-color: red; */
 }
-  
-  /* Clear floats after the columns */
-/* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
 
 .icon {
     display: flex;
