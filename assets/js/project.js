@@ -64,8 +64,8 @@ const showData = () => {
                     </div>
                     
                     <div class="icon">
-                    ${datas[i].icons[0] ? `<i class="fa-brands fa-react"></i>` : ""} 
-                    ${datas[i].icons[1] ? `<i class="fa-brands fa-node"></i>` : ""} 
+                    ${datas[i].icons[0] ? `<i class="fa-brands fa-node"></i>` : ""} 
+                    ${datas[i].icons[1] ? `<i class="fa-brands fa-react"></i>` : ""} 
                     ${datas[i].icons[2] ? `<i class="fa-brands fa-java"></i>` : ""} 
                     ${datas[i].icons[3] ? `<i class="fa-brands fa-square-js"></i>` : ""} 
                     </div>
